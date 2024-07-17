@@ -21,5 +21,7 @@ public class LoginPageTest extends BaseClass {
     	driver.findElement(By.name("add-to-cart-sauce-labs-backpack")).click();
     	driver.findElement(By.name("add-to-cart-sauce-labs-bike-light")).click();
     	
+    	driver.findElement(By.name("add-to-cart-sauce-labs-onesie")).click();
+    	
     }
 }
