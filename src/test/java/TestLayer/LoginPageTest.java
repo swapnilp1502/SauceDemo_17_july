@@ -15,6 +15,7 @@ public class LoginPageTest extends BaseClass {
     @Test
     public void validate() {
     	driver.findElement(By.name("user-name")).sendKeys("standard_user");
+    	driver.findElement(By.name("password")).sendKeys("secret_sauce");
     	
     	
     }
