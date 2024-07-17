@@ -1,5 +1,6 @@
 package TestLayer;
 
+import org.openqa.selenium.By;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -13,6 +14,8 @@ public class LoginPageTest extends BaseClass {
 	}
     @Test
     public void validate() {
+    	driver.findElement(By.name("user-name")).sendKeys("standard_user");
+    	
     	
     }
 }
